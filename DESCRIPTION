@@ -1,0 +1,26 @@
+Package: ARMIS
+Title: Analysis of repeated measured data in aminal science
+Version: 0.0.0.9000
+Author: c(person(given = "Unkyung",
+           family = "Lee",
+           role = c("aut", "cre"),
+           email = "unkyunglee@stat.tamu.edu"), 
+           person(given = "Tanya",
+           family = "Garcia",
+           role = c("aut", "cre"),
+           email = "tpgarcia@stat.tamu.edu")
+Maintainer: UnkyungLee <unkyunglee@stat.tamu.edu>
+Description: We analyze the amino acid data in animal science where data are repeated measured from each anminal 
+             for the small number of sample size. We use three mixed model analyses that capture the time effect,
+             while accounting for the correlations of measurements over time from the same steers. First, we allow flexible variance-covariance structures on our model. 
+             Second, we use baseline measurements as a covariate in our model. Third, we use percent-change from baseline as a data normalization method.  
+License: GPL-2
+Depends: R (>= 2.10)
+Imports: nlme
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
